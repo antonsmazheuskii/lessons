@@ -1,0 +1,85 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+}
+@font-face {
+    font-family: 'Fraunces', 'Inter', 'sans-serif';
+    src: url('fonts/Fraunces_72pt-Regular.ttf'),
+    url('fonts/Inter_18pt-Regular.ttf');
+}
+a {
+    text-decoration: none;
+}
+.card-header {
+    display: flex;
+    justify-content: space-between;
+}
+.container {
+    background: rgba(247, 249, 250);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 80px calc(50% - 615px);
+}
+.container-card {
+    height: 587px;
+    width: 1230px;
+}
+.card-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1.36px 50px 18.36px;
+}
+.card-content {
+    width: 355px;
+    display: flex;
+    flex-direction: column;
+}
+.card-content:not( :last-child) {
+    margin-right: 32px;
+}
+.box__img {
+    width: 355px;
+}
+.link-header {
+    display: flex;
+    align-items: center;
+    color: rgb(0, 112, 160);
+    width: 174px;
+}
+.cards {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding-top: 32px;
+}
+.card-text {
+    padding: 25px;
+    background: #fff;
+}
+.card-title {
+    font: 400 25px/20px 'Inter';
+}
+.card-text__title {
+    font: 400 25px/32px 'Fraunces';
+    color: rgb(31, 31, 31);
+    padding-top: 8px;
+}
+.card-text__text {
+    font: 400 14px/20px 'Inter';
+    padding-top: 11px;
+}
+time {
+    display: flex;
+    padding-top: 16px;
+}
+.link-content-text {
+    color: rgb(44, 144, 201);
+    padding: 2px 12px 4px;
+    background: rgb(230, 247, 255);
+}
