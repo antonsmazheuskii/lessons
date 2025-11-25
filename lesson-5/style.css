@@ -1,0 +1,107 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+}
+@font-face {
+    font-family: 'Roboto', 'sans-serif';
+    src: url('fonts/Roboto_Condensed-Black.ttf');
+}
+.container {
+    display: flex;
+    justify-content: space-evenly;
+    height: 100vh;
+    flex-direction: column;
+    margin: 0 80px;
+}
+.container-title{
+    text-align: center;
+    font: 400 36px/100% 'Roboto', sans-serif;
+    color: rgb(0, 0, 0);
+    padding-bottom: 70px;
+}
+.container-indicators{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 70px calc(50% - 544px) 0;
+}
+.circle{
+    width: 70px;
+    height: 70px;
+    border-radius: 35px;
+    margin: 0 auto;
+}
+.circle-indicator{
+    width: 339px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 0 24px 110px 0;
+}
+.circle-text{
+    font: 700 36px/100% 'Roboto', sans-serif;
+    color: rgba(0, 0, 0, 1)
+}
+.indicator-top{
+    display: flex;
+}
+.indicator-bottom{
+    display: flex;
+}
+.image-title{
+    text-align: center;
+    font: 700 36px/100% 'Roboto', sans-serif;
+    color: rgb(0, 0, 0);
+}
+.image{
+    display: flex;
+    justify-content: space-evenly;
+    height: 100vh;
+    flex-direction: column;
+    margin: 0 80px;
+
+}
+.image-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 190px calc(50% - 582px) 51px;
+}
+.image-img{
+    width: 288px;
+    height: 351px;
+}
+.image-cards{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    max-width: 288px;
+    text-align: center;
+    margin-right: 100px;
+}
+.title-card{
+    padding-top: 35px;
+    font: 700 22px/100% 'Roboto', sans-serif;
+    letter-spacing: .6px;
+}
+.image-text{
+    font: 400 19px/100% 'Roboto', sans-serif;
+    padding-top: 40px;
+    color: rgb(0, 0, 0);
+}
+.image-span {
+    padding-top: 51px;
+    font: 700 18px/100% 'Roboto', sans-serif;
+    color: rgb(0, 0, 0);
+    text-decoration: underline;
+}
+.image-cards:last-child {
+    margin-right: 0;
+}
+.box-shadow{
+    box-shadow: inset 0px -505px 0 rgba(240, 240, 240, 1);
+}
